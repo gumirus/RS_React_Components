@@ -22,7 +22,7 @@ function Search({ onSearch }: SearchProps) {
           setQuery(event.target.value)
         }
       />
-      <button type="submit">Поиск</button>
+      <button type="submit">SEARCH</button>
     </form>
   );
 }

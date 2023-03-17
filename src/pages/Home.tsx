@@ -9,8 +9,8 @@ function Home() {
   return (
     <>
       <h1>Home</h1>
-      <Cards />
       <Search onSearch={handleSearch} />
+      <Cards />
     </>
   );
 }
