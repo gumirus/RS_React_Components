@@ -4,7 +4,7 @@ import '../style.css';
 function NavBar() {
   return (
     <>
-      <header className="nav-bar">
+      <header>
         <Link to="/">Home</Link>
         <Link to="/AboutUs">About Us</Link>
       </header>

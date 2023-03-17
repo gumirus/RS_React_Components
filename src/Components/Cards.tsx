@@ -13,7 +13,7 @@ import bearImage from '../assets/image/bear.jpg';
 
 function Cards() {
   return (
-    <div>
+    <>
       <img src={flowersImage} alt="Flowers" />
       <img src={heartImage} alt="Heart" />
       <img src={jungImage} alt="Jung" />
@@ -26,7 +26,7 @@ function Cards() {
       <img src={owlImage} alt="Owl" />
       <img src={fishImage} alt="Fish" />
       <img src={bearImage} alt="Bear" />
-    </div>
+    </>
   );
 }
 
