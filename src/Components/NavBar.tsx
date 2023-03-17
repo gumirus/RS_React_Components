@@ -1,7 +1,7 @@
 import { Link, Outlet } from 'react-router-dom';
-import '../../src/style.css';
+import '../style.css';
 
-const NavBar = () => {
+function NavBar() {
   return (
     <>
       <header className="nav-bar">
@@ -11,6 +11,6 @@ const NavBar = () => {
       <Outlet />
     </>
   );
-};
+}
 
 export default NavBar;
