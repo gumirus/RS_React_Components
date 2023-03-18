@@ -1,5 +1,6 @@
 import React, { useState, FormEvent } from 'react';
 import PropTypes from 'prop-types';
+import { FaSearch } from 'react-icons/fa';
 
 interface SearchProps {
   onSearch: (query: string) => void;
@@ -18,11 +19,17 @@ function Search({ onSearch }: SearchProps) {
       <input
         type="text"
         value={query}
+        placeholder="Search"
         onChange={(event: React.ChangeEvent<HTMLInputElement>) =>
           setQuery(event.target.value)
         }
       />
-      <button type="submit">SEARCH</button>
+      <button
+        type="submit"
+        style={{ background: 'transparent', border: 'none', outline: 'none' }}
+      >
+        <FaSearch style={{ color: 'yellow', fontSize: '80%' }} />
+      </button>
     </form>
   );
 }

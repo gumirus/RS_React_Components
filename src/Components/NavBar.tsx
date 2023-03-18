@@ -6,7 +6,8 @@ function NavBar() {
     <>
       <header>
         <Link to="/">Home</Link>
-        <Link to="/AboutUs">About Us</Link>
+        <Link to="/aboutUs">About Us</Link>
+        <Link to="/formpage">Form Page</Link>
       </header>
       <Outlet />
     </>
