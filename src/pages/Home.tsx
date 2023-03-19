@@ -1,6 +1,5 @@
 import Cards from '../Components/Cards';
 import Search from '../Components/Search';
-import NavBar from '../Components/NavBar';
 
 const handleSearch = (query: string) => {
   console.log('Search query:', query);

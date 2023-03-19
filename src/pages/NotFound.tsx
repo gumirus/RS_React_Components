@@ -4,7 +4,9 @@ function NotFound() {
   return (
     <div>
       <h1>404</h1>
-      <Link to="/">Go Home</Link>
+      <button type="button">
+        <Link to="/">Go Home</Link>
+      </button>
     </div>
   );
 }
