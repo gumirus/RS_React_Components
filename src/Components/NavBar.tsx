@@ -3,14 +3,14 @@ import '../style.css';
 
 function NavBar() {
   return (
-    <>
-      <header>
+    <header className="header">
+      <div className="header-links">
         <Link to="/">Home</Link>
         <Link to="/aboutUs">About Us</Link>
         <Link to="/formpage">Form Page</Link>
-      </header>
+      </div>
       <Outlet />
-    </>
+    </header>
   );
 }
 

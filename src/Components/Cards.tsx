@@ -10,10 +10,13 @@ import pandaImage from '../assets/image/panda.jpg';
 import owlImage from '../assets/image/owl.jpg';
 import fishImage from '../assets/image/fish.jpg';
 import bearImage from '../assets/image/bear.jpg';
+import women from '../assets/image/women.jpg';
+import womenOne from '../assets/image/women_one.jpg';
+import womenToo from '../assets/image/women_too.jpg';
 
 function Cards() {
   return (
-    <>
+    <div className="images-container">
       <img src={flowersImage} alt="Flowers" />
       <img src={heartImage} alt="Heart" />
       <img src={jungImage} alt="Jung" />
@@ -26,7 +29,10 @@ function Cards() {
       <img src={owlImage} alt="Owl" />
       <img src={fishImage} alt="Fish" />
       <img src={bearImage} alt="Bear" />
-    </>
+      <img src={women} alt="women" />
+      <img src={womenOne} alt="womenOne" />
+      <img src={womenToo} alt="womenToo" />
+    </div>
   );
 }
 
